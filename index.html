@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Via Cep</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>API ViaCep</h1>
+        <p><strong>Preencha os campos e consulte qualquer CEP do Brasil</strong></p>
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Ex: Renan Rodrigues">
+            <label for="cep">Digite o CEP:</label>
+            <input type="text" id="cep" placeholder="Ex: 01001-000">
+        </div>
+        <div class="button">
+            <button onclick="consultar()">Consultar</button>
+        </div>
+        <div class="container2">
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
